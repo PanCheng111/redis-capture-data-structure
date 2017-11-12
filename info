@@ -1,0 +1,100 @@
+# Server
+redis_version:3.2.9
+redis_git_sha1:00000000
+redis_git_dirty:0
+redis_build_id:ea99df1477bcc67e
+redis_mode:standalone
+os:Linux 4.10.0-38-generic x86_64
+arch_bits:64
+multiplexing_api:epoll
+gcc_version:5.4.0
+process_id:16258
+run_id:9da7754f5ead362fa6a0d5a46110bae79044e2d1
+tcp_port:6380
+uptime_in_seconds:25529
+uptime_in_days:0
+hz:10
+lru_clock:441282
+executable:/home/ucloud/ucloud/redis/./src/redis-server
+config_file:/home/ucloud/ucloud/redis/./my.conf
+
+# Clients
+connected_clients:1
+client_longest_output_list:0
+client_biggest_input_buf:0
+blocked_clients:0
+
+# Memory
+used_memory:42034600
+used_memory_human:40.09M
+used_memory_rss:89231360
+used_memory_rss_human:85.10M
+used_memory_peak:42062144
+used_memory_peak_human:40.11M
+total_system_memory:202746720256
+total_system_memory_human:188.82G
+used_memory_lua:37888
+used_memory_lua_human:37.00K
+maxmemory:0
+maxmemory_human:0B
+maxmemory_policy:allkeys-lru
+mem_fragmentation_ratio:2.12
+mem_allocator:jemalloc-4.0.3
+
+# Persistence
+loading:0
+rdb_changes_since_last_save:0
+rdb_bgsave_in_progress:0
+rdb_last_save_time:1510387027
+rdb_last_bgsave_status:ok
+rdb_last_bgsave_time_sec:0
+rdb_current_bgsave_time_sec:-1
+aof_enabled:0
+aof_rewrite_in_progress:0
+aof_rewrite_scheduled:0
+aof_last_rewrite_time_sec:-1
+aof_current_rewrite_time_sec:-1
+aof_last_bgrewrite_status:ok
+aof_last_write_status:ok
+
+# Stats
+total_connections_received:95
+total_commands_processed:373759404
+instantaneous_ops_per_sec:0
+total_net_input_bytes:17129075990
+total_net_output_bytes:8480252282
+instantaneous_input_kbps:0.00
+instantaneous_output_kbps:0.00
+rejected_connections:0
+sync_full:0
+sync_partial_ok:0
+sync_partial_err:0
+expired_keys:0
+evicted_keys:0
+keyspace_hits:275707469
+keyspace_misses:23376058
+pubsub_channels:0
+pubsub_patterns:0
+latest_fork_usec:2229
+migrate_cached_sockets:0
+
+# Replication
+role:master
+connected_slaves:0
+master_repl_offset:0
+repl_backlog_active:0
+repl_backlog_size:1048576
+repl_backlog_first_byte_offset:0
+repl_backlog_histlen:0
+
+# CPU
+used_cpu_sys:4759.68
+used_cpu_user:3192.82
+used_cpu_sys_children:4.61
+used_cpu_user_children:100.21
+
+# Cluster
+cluster_enabled:0
+
+# Keyspace
+db0:keys=143039,expires=0,avg_ttl=0
